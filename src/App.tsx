@@ -1,4 +1,5 @@
 import {Counter} from "./components/Counter";
+import { UserLogin } from './components/UserLogin';
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
 
             <Counter/>
 
+            <UserLogin/>
         </>
     );
 }
