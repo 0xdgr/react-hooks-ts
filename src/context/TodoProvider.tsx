@@ -4,7 +4,7 @@ import { TodoContext } from './TodoContext';
 import { todoReducer } from './todoReducer';
 
 interface TodoProviderProps {
-    children: JSX.Element
+    children: JSX.Element | JSX.Element[]
 };
 
 const INITIAL_STATE: TodoState = {
