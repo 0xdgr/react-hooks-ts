@@ -1,9 +1,9 @@
 import { Counter } from './components/Counter';
 import { UserLogin } from './components/UserLogin';
-
 import { TimerSet } from './components/TimerSet';
 import { CounterRed } from './components/CounterRed';
 import { Form } from './components/Form';
+import { Todo } from './components/Todo';
 
 function App() {
     return (
@@ -27,6 +27,10 @@ function App() {
 
             <h2>customHooks</h2>
             <Form/>
+            <hr/>
+
+            <h2>useContext</h2>
+            <Todo/>
         </>
     );
 }
